@@ -363,32 +363,73 @@
 		/* ==================================================
             # Testimonial Two Carousel
          ===============================================*/
-		const TestimonialTwo = new Swiper(".testimonial-style-two-carousel", {
-			// Optional parameters
-			loop: true,
-			freemode: true,
-			slidesPerView: 'auto',
-			spaceBetween: 15,
-			centeredSlides: true,
-			allowTouchMove: false,
-			slidesPerView: 1,
-			speed: 6000,
-			autoplay: {
-				delay: 1,
-				disableOnInteraction: true,
-			},
-			breakpoints: {
-				768: {
-					slidesPerView: 2,
-				},
-				992: {
-					slidesPerView: 3,
-				},
-				1200: {
-					slidesPerView: 4,
-				},
-			},
-		});
+		// const TestimonialTwo = new Swiper(".testimonial-style-two-carousel", {
+		// 	// Optional parameters
+		// 	loop: true,
+		// 	freemode: true,
+		// 	slidesPerView: 'auto',
+		// 	spaceBetween: 15,
+		// 	centeredSlides: true,
+		// 	allowTouchMove: false,
+		// 	slidesPerView: 1,
+		// 	speed: 6000,
+		// 	autoplay: {
+		// 		delay: 1,
+		// 		disableOnInteraction: true,
+		// 	},
+		// 	breakpoints: {
+		// 		768: {
+		// 			slidesPerView: 2,
+		// 		},
+		// 		992: {
+		// 			slidesPerView: 3,
+		// 		},
+		// 		1200: {
+		// 			slidesPerView: 4,
+		// 		},
+		// 	},
+		// });
+
+		/* ==================================================
+    # Testimonial Two Carousel
+==================================================*/
+/* ==================================================
+    # Testimonial Two Carousel
+==================================================*/
+const TestimonialTwo = new Swiper(".testimonial-style-two-carousel", {
+    loop: true,
+    freemode: true,
+    slidesPerView: 'auto',
+    spaceBetween: 15,
+    centeredSlides: true,
+    allowTouchMove: true, 
+    speed: 6000,
+    autoplay: {
+        delay: 1,                  
+        disableOnInteraction: false, 
+        pauseOnMouseEnter: true,     
+    },
+    pagination: {
+        el: ".swiper-pagination",   
+        clickable: true,
+    },
+    navigation: {                   
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+        },
+        992: {
+            slidesPerView: 3,
+        },
+        1200: {
+            slidesPerView: 4,
+        },
+    },
+});
+
 
 
 		/* ==================================================
