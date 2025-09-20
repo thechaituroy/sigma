@@ -12950,7 +12950,9 @@ ul.faculty-list li {
 	background: var(--bg-gray-gradient-secondary);
 	z-index: -1;
 }
-
+.contact-style-one-area::after {
+    background: none !important;
+}
 .contact-form-style-one input, .contact-form-style-one textarea {
 	background: transparent;
 	border: none;
