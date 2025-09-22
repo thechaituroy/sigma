@@ -11620,7 +11620,7 @@ ul.list-check {
 	margin-top: 25px;
 }
 
-ul.list-check li {
+/* ul.list-check li {
 	display: inline-block;
 	position: relative;
 	z-index: 1;
@@ -11636,7 +11636,7 @@ ul.list-check li::after {
 	font-family: "Font Awesome 5 Pro";
 	font-weight: 600;
 	color: var(--color-primary);
-}
+} */
 
 .newsletter-style-one-items .shape img:nth-child(2) {
 	left: auto;
