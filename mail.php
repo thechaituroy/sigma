@@ -404,17 +404,93 @@
         <!-- End Navigation -->
     </header>
     <!-- End Header -->
-    <!-- Start Breadcrumb 
+
+                <!-- Start Side Menu -->
+                <div class="side">
+                    <a href="#" class="close-side"><i class="fas fa-times"></i></a>
+                    <div class="widget">
+                        <div class="logo">
+                            <img src="assets/img/logo-light.png" alt="Logo">
+                        </div>
+                        <p>
+                            Sigma Skool offers expert-led German language courses guided by high-profile instructors with global teaching experience. Our curriculum emphasizes real-world communication, cultural fluency, and career relevance. Mastering German opens doors to international education, top-tier job markets, and global networking—making language learning an investment in your future success.
+
+
+
+
+
+
+                        </p>
+                    </div>
+                    <div class="widget address">
+                        <div>
+                            <ul>
+                                <li>
+                                    <div class="content">
+                                        <p>Address</p> 
+                                        <strong>Hyderabad</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="content">
+                                        <p>Email</p> 
+                                        <strong>support@thesigmaskool.com</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="content">
+                                        <p>Contact</p> 
+                                        <strong>+91 9542141419</strong>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="widget newsletter">
+                        <h4 class="title">Make yourself a SIGMA</h4>
+                        <form action="#">
+                            <div class="input-group stylish-input-group">
+                                <input type="email" placeholder="Enter your e-mail" class="form-control" name="email">
+                                <span class="input-group-addon">
+                                    <button type="submit" >
+                                        <i class="fa fa-long-arrow-right"></i>
+                                    </button>  
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="widget social">
+                        <ul class="link">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/shubham-agarwal-313710382/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- End Side Menu -->
+
+            </div>   
+            <!-- Overlay screen for menu -->
+            <div class="overlay-screen"></div>
+            <!-- End Overlay screen for menu -->
+        </nav>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Header -->
+
+     <!-- Start Breadcrumb 
     ============================================= -->
     <div class="breadcrumb-area text-center bg-gray-gradient-secondary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
-                    <h1>Privacy Policy</h1>
+                    <h1>Get in Touch</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                            <li class="active">Privacy Policy</li>
+                            <li class="active">Contact</li>
                         </ol>
                     </nav>
                 </div>
@@ -423,105 +499,144 @@
     </div>
     <!-- End Breadcrumb -->
 
-    <!-- Start Privacy Policy
+    <!-- Start Contact Us 
     ============================================= -->
-    <div class="privacy-policy-area default-padding">
+    <div class="contact-style-one-area overflow-hidden default-padding-bottom">
         <div class="container">
-            <div class="privacy-pages">
-                <div class="row">
-                    <p>
-                        Your privacy is important to us. This Privacy Policy explains how The Sigma Skool ("we", "us", or "our") collects, uses, and protects personal information when you use our website:
-                    </p>
-                    <h3>1. Information We Collect</h3>
-                    <p>
-                        We may collect the following types of information:
-                    </p>
-                    <h5>1.1 Personal Information</h5>
-                    <ul>
-                        <li>Name</li>
-                        <li>Email address</li>
-                        <li>Phone number</li>
-                        <li>Billing address</li>
-                        <li>Payment information (processed securely via third-party services)</li>
-                    </ul>
-                    <h3>2. How We Use Your Information</h3>
-                    <p>
-                        We use the information we collect for the following purposes:
-                    </p>
-                    <ul>
-                        <li>To create and manage your account.</li>
-                        <li>To deliver courses and learning materials.</li>
-                        <li>To process payments and manage subscriptions.</li>
-                        <li>To personalize your learning experience.</li>
-                        <li>To improve our platform's functionality and content.</li>
-                        <li>To send notifications, updates, and marketing communications (with your consent).</li>
-                        <li>To provide technical and customer support.</li>
-                        <li>To comply with legal obligations.</li>
-                    </ul>
-                    <h3>3. How We Share Your Information</h3>
-                    <p>
-                        We do not sell your personal information. However, we may share your data with:
-                    </p>
-                    <ul>
-                        <li>
-                            <strong>Service Providers:</strong> Third-party companies that assist in platform operations, such as payment processors and email service providers.
-                        </li>
-                        <li>
-                            <strong>Legal Authorities:</strong> When required to comply with laws or legal processes.
-                        </li>
-                        <li>
-                            <strong>Business Transfers:</strong> In the event of a merger, acquisition, or sale of assets.
-                        </li>
-                    </ul>
-                    <h3>4. Data Security</h3>
-                    <p>
-                        We implement appropriate technical and organizational measures to protect your data against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission or storage is 100% secure.
-                    </p>
-                    <h3>5. Your Rights</h3>
-                    <p>
-                        You have the following rights regarding your data:
-                    </p>
-                    <ul>
-                        <li>
-                            <strong>Access and Update:</strong> You can access and update your personal information through your account settings.
-                        </li>
-                        <li>
-                            <strong>Data Portability:</strong> Request a copy of your data in a machine-readable format.
-                        </li>
-                        <li>
-                            <strong>Deletion:</strong> Request the deletion of your data, subject to legal obligations.
-                        </li>
-                        <li>
-                            <strong>Opt-Out:</strong> Unsubscribe from marketing communications.
-                        </li>
-                    </ul>
-                    <h3>6. Cookies and Tracking Technologies</h3>
-                    <p>
-                        We use cookies and similar technologies to:
-                    </p>
-                    <ul>
-                        <li>Enhance user experience.</li>
-                        <li>Track user activity for analytics and improvement.</li>
-                        <li>Deliver personalized content and advertisements.</li>
-                    </ul>
-                    <p>
-                        You can manage cookie preferences through your browser settings.
-                    </p>
-                    <h3>7. Third-Party Links</h3>
-                    <p>
-                        Our platform may contain links to third-party websites. We are not responsible for their privacy practices or content. Please review their privacy policies before sharing your data.
-                    </p>
-                    <h3>8. Children’s Privacy</h3>
-                    <p>
-                        Our platform is not intended for children under the age of 13, and we do not knowingly collect personal information from them. If you believe a child has provided us with data, contact us to remove it.
-                    </p>
+            <div class="row">
+
+                <div class="contact-stye-one col-lg-10 offset-lg-1">
+                    <div class="contact-form-style-one">
+                        <h2 class="heading">Send us a message</h2>
+                        <form action="contact.php" method="post" class="contact-form contact-form">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                                        <span class="alert-error"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input class="form-control" id="email" name="email" placeholder="Email*" type="email" required>
+                                        <span class="alert-error"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text" required>
+                                        <span class="alert-error"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group comments">
+                                        <textarea class="form-control" id="comments" name="comments" placeholder="Tell Us About Query *" required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <a href="phpmailer\sucess.html"><button type="submit" name="submit" id="submit">
+                                        <i class="fa fa-paper-plane"></i> Get in Touch
+                                    </button></a>
+                                </div>
+                            </div>
+                            <!-- Alert Message -->
+                            <div class="col-lg-12 alert-notification">
+                                <div id="message" class="alert-msg"></div>
+                            </div>
+                        </form>
+                        <img src="assets/img/shape/88.png" alt="Image Not Found">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Privacy Policy  -->
+    <!-- End Contact -->
 
-    <!-- Start Footer 
+    <!-- Start Contact Information
+    ============================================= -->
+    <div class="contact-info-area overflow-hidden default-padding-bottom pt-20 mt--20">
+        <div class="container">
+            <div class="row">
+                <div class="contact-stye-one col-lg-10 offset-lg-1">
+                    <div class="contact-style-one-info">
+                        <div class="heading text-center">
+                            <h4 class="sub-title">Have Questions?</h4>
+                            <h2 class="title">Contact Information</h2>
+                        </div>
+                        <div class="contact-info-items">
+                            <div class="item-single wow fadeInUp">
+                                <div class="icon">
+                                    <img src="assets/img/icon/68.png" alt="Image Not Found">
+                                </div>
+                                <div class="content">
+                                    <h4>Contact Number</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="tel:+4733378901">+91 9666892000</a>
+                                        </li>
+                                        <!-- <li>
+                                            <a href="tel:+1433378912">+1433378912</a>
+                                        </li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item-single wow fadeInUp" data-wow-delay="300ms">
+                                <div class="icon">
+                                    <img src="assets/img/icon/70.png" alt="Image Not Found">
+                                </div>
+                                <div class="info">
+                                    <h4>Our Location</h4>
+                                    <p>
+                                        Ameerpet, 500016, Hyderabad, India
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-single wow fadeInUp" data-wow-delay="500ms">
+                                <div class="icon">
+                                    <img src="assets/img/icon/69.png" alt="Image Not Found">
+                                </div>
+                                <div class="info">
+                                    <h4>Official Email</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="mailto:info@edfix.com.com">info@thesigmaskool.com</a>
+                                        </li>
+                                        <li>
+                                            <a href="mailto:info@validtheme.com">support@thesigmaskool.com</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Information -->
+
+    <!-- Start Map 
+    ============================================= -->
+    <!-- <div class="maps-area overflow-hidden default-padding-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="google-maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48388.929990966964!2d-74.00332!3d40.711233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1653598669477!5m2!1sen!2sus"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- End Map -->
+
+     <!-- Start Footer 
     ============================================= -->
     <footer class="bg-dark footer-style-one text-light">
         <div class="footer-shape-style-one">

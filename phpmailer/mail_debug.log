@@ -1,0 +1,125 @@
+2025-09-24 05:26:32 | SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-3341be36bdesm992956a91.24 - gsmtp
+
+2025-09-24 05:26:32 | CLIENT -> SERVER: EHLO localhost
+
+2025-09-24 05:26:33 | SERVER -> CLIENT: 250-smtp.gmail.com at your service, [103.15.61.93]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-09-24 05:26:33 | CLIENT -> SERVER: AUTH LOGIN
+
+2025-09-24 05:26:33 | SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-09-24 05:26:33 | CLIENT -> SERVER: [credentials hidden]
+2025-09-24 05:26:33 | SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-09-24 05:26:33 | CLIENT -> SERVER: [credentials hidden]
+2025-09-24 05:26:33 | SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-09-24 05:26:33 | CLIENT -> SERVER: MAIL FROM:<thesigmaskool@gmail.com>
+
+2025-09-24 05:26:34 | SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-3341be36bdesm992956a91.24 - gsmtp
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: RCPT TO:<thesigmaskool@gmail.com>
+
+2025-09-24 05:26:34 | SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-3341be36bdesm992956a91.24 - gsmtp
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: DATA
+
+2025-09-24 05:26:34 | SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-3341be36bdesm992956a91.24 - gsmtp
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: Date: Wed, 24 Sep 2025 05:26:32 +0000
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: To: Sigma Support <thesigmaskool@gmail.com>
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: From: Sigma Skool Website <thesigmaskool@gmail.com>
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: Reply-To: UDAYCHAND <udaychandpalabindela@gmail.com>
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: Subject: New Contact Form Submission from UDAYCHAND
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: Message-ID: <DYun3pRuqMWJQQhjGLRCaPLrR1B8AqhMlc9bjQL6GQ0@localhost>
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-09-24 05:26:34 | CLIENT -> SERVER:  boundary="b1=_DYun3pRuqMWJQQhjGLRCaPLrR1B8AqhMlc9bjQL6GQ0"
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: 
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: --b1=_DYun3pRuqMWJQQhjGLRCaPLrR1B8AqhMlc9bjQL6GQ0
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: 
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: Name: UDAYCHAND
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: Email: udaychandpalabindela@gmail.com
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: Phone: 9010628052
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: Message: I need A1 course 
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: iam a beginner
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: test1
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: 
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: --b1=_DYun3pRuqMWJQQhjGLRCaPLrR1B8AqhMlc9bjQL6GQ0
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: 
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: 
+
+2025-09-24 05:26:34 | CLIENT -> SERVER:             <h2>Contact Request from Sigma Website</h2>
+
+2025-09-24 05:26:34 | CLIENT -> SERVER:             <hr>
+
+2025-09-24 05:26:34 | CLIENT -> SERVER:             <p><strong>Name:</strong> UDAYCHAND</p>
+
+2025-09-24 05:26:34 | CLIENT -> SERVER:             <p><strong>Email:</strong> udaychandpalabindela@gmail.com</p>
+
+2025-09-24 05:26:34 | CLIENT -> SERVER:             <p><strong>Phone:</strong> 9010628052</p>
+
+2025-09-24 05:26:34 | CLIENT -> SERVER:             <hr>
+
+2025-09-24 05:26:34 | CLIENT -> SERVER:             <p><strong>Message:</strong></p>
+
+2025-09-24 05:26:34 | CLIENT -> SERVER:             <p>I need A1 course 
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: iam a beginner
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: test1</p>
+
+2025-09-24 05:26:34 | CLIENT -> SERVER:         
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: 
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: 
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: --b1=_DYun3pRuqMWJQQhjGLRCaPLrR1B8AqhMlc9bjQL6GQ0--
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: 
+
+2025-09-24 05:26:34 | CLIENT -> SERVER: .
+
+2025-09-24 05:26:35 | SERVER -> CLIENT: 250 2.0.0 OK  1758691596 98e67ed59e1d1-3341be36bdesm992956a91.24 - gsmtp
+
+2025-09-24 05:26:35 | CLIENT -> SERVER: QUIT
+
+2025-09-24 05:26:36 | SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-3341be36bdesm992956a91.24 - gsmtp
+
