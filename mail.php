@@ -440,7 +440,7 @@
                                 <li>
                                     <div class="content">
                                         <p>Contact</p> 
-                                        <strong>+91 9542141419</strong>
+                                        <strong>+91 9666892000</strong>
                                     </div>
                                 </li>
                             </ul>
