@@ -432,135 +432,33 @@
     </div>
     <!-- End Breadcrumb -->
 
-    <!-- Start Course Details ============================================= -->
-<div class="course-detils-area default-padding">
-    <div class="container">
-        <div class="course-details-items">
-            <div class="row">
-                <div class="col-lg-8 pr-40 pr-md-15 pr-xs-15">
-                    <div class="course-details-left-info">
+    <!-- Start Newsletter 
+    ============================================= -->
+    <div class="newsletter-area default-padding-bottom bg-gray-gradient-secondary">
+        <div class="container">
+            <div class="newsletter-style-one-items bg-theme text-center bg-cover"
+                style="background-image: url(assets/img/shape/banner-8.jpg);">
+                <div class="shape">
+                    <!-- <img src="assets/img/illustration/9.png" alt="Image Not Found"> -->
+                    <img src="assets/img/shape/48.png" alt="Image Not Found">
+                </div>
+                <div class="row">
+                    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+                        <h2 class="title split-text">Sample Handwritten notes</h2>
+                        <ul class="list-check">
+                            <li><a class="btn circle btn-theme animation" href="https://drive.google.com/file/d/1yTlyNnU07AzYeVgePqF2clkcUQXlW1ju/view?usp=drive_link">A1 Sample Notes
+                                    Us</a></li>
+                            <li><a class="btn circle btn-theme animation" href="https://drive.google.com/file/d/1cvG-i812N8q4RpRBhL5hLWdqHE4LdXQZ/view?usp=drive_link">A2 Sample Notes</a></li>
+                            <li><a class="btn circle btn-theme animation" href="https://drive.google.com/file/d/16-yMH7H2CcLU-eYXSyIineroqRP0QWCk/view?usp=drive_link">B1 Sample Notes</a></li>
+                        </ul>
 
-                        <div class="course-details-info">
-                            <!-- Tabs Navigation -->
-                            <ul class="nav nav-tabs course-details-navs" id="myTab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="tabs_1" data-bs-toggle="tab"
-                                        data-bs-target="#tab_1" type="button" role="tab" aria-controls="tab_1"
-                                        aria-selected="true">
-                                        A1 Sample Notes
-                                    </button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="tabs_2" data-bs-toggle="tab"
-                                        data-bs-target="#tab_2" type="button" role="tab" aria-controls="tab_2"
-                                        aria-selected="false">
-                                        A2 Sample Notes
-                                    </button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="tabs_3" data-bs-toggle="tab"
-                                        data-bs-target="#tab_3" type="button" role="tab" aria-controls="tab_3"
-                                        aria-selected="false">
-                                        B1 Sample Notes
-                                    </button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="tabs_4" data-bs-toggle="tab"
-                                        data-bs-target="#tab_4" type="button" role="tab" aria-controls="tab_4"
-                                        aria-selected="false">
-                                        B2 Sample Notes
-                                    </button>
-                                </li>
-                            </ul>
 
-                            <!-- Tabs Content -->
-                            <div class="tab-content" id="myTabContent">
-
-                                <!-- A1 Notes -->
-                                <div class="tab-pane fade show active" id="tab_1" role="tabpanel" aria-labelledby="tabs_1">
-                                    <h1>A1 Notes</h1>
-                                    <div class="pdf-viewer-wrapper">
-                                        <div class="pdf-viewer">
-                                            <iframe id="pdfA1" data-src="a1.pdf" width="100%" height="100%" style="border:none;"></iframe>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- A2 Notes -->
-                                <div class="tab-pane fade" id="tab_2" role="tabpanel" aria-labelledby="tabs_2">
-                                    <h1>A2 Notes</h1>
-                                    <div class="pdf-viewer-wrapper">
-                                        <div class="pdf-viewer">
-                                            <iframe id="pdfA2" data-src="a2.pdf" width="100%" height="100%" style="border:none;"></iframe>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- B1 Notes -->
-                                <div class="tab-pane fade" id="tab_3" role="tabpanel" aria-labelledby="tabs_3">
-                                    <h1>B1 Notes</h1>
-                                    <div class="pdf-viewer-wrapper">
-                                        <div class="pdf-viewer">
-                                            <iframe id="pdfB1" data-src="b1.pdf" width="100%" height="100%" style="border:none;"></iframe>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- B2 Notes -->
-                                <div class="tab-pane fade" id="tab_4" role="tabpanel" aria-labelledby="tabs_4">
-                                    <h1>B2 Notes</h1>
-                                    <p>Coming Soon</p>
-                                </div>
-                            </div>
-
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- End Course Details -->
-
-
-<!-- Single CSS (only once, not repeated per tab) -->
-<style>
-    .pdf-viewer-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 80vh;
-        background: #f9f9f9;
-    }
-    .pdf-viewer {
-        background: #fff;
-        border-radius: 12px;
-        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-        width: 80%;
-        max-width: 900px;
-        height: 80vh;
-    }
-    .pdf-viewer iframe {
-        width: 100%;
-        height: 100%;
-        border: none;
-    }
-</style>
-
-<!-- Lazy Load Script -->
-<script>
-document.addEventListener("shown.bs.tab", function (e) {
-    const tabId = e.target.getAttribute("data-bs-target"); 
-    const iframe = document.querySelector(tabId + " iframe");
-    if (iframe && !iframe.src) {
-        iframe.src = iframe.dataset.src; // load PDF only when tab is opened
-    }
-});
-
-// Load A1 by default
-document.getElementById("pdfA1").src = document.getElementById("pdfA1").dataset.src;
-</script>
+    <!-- End Newsletter -->
 
     <!-- Start Contact Us 
     ============================================= -->
